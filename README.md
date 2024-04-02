@@ -65,3 +65,29 @@ export const sendMessageToNative = () => {
     console.error(e);
   }
 }
+
+
+三方编码：
+AppsFlyer: AF
+Facebook: FB
+Google: GO
+Kwai: KW
+TikTok: TT
+
+事件编码：
+首次打开app：firstOpenApp
+登出：logout
+登录：login
+点击注册：registerClick
+注册成功：register
+点击充值：rechargeClick
+首充成功：firstrecharge
+复充成功：recharge
+提现点击：withdrawClick
+提现成功：withdrawOrderSuccess
+进入游戏(包含三方与自营)：enterGame
+领取vip奖励：vipReward
+领取每日奖励：dailyReward
+
+上报参数：
+params: {}
